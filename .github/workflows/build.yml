@@ -33,4 +33,4 @@ jobs:
       run: |
           cd dist
           ls
-          zip -r WebAdvert.zip ./WebAdvert
+          zip -r WebAdvert.zip 
