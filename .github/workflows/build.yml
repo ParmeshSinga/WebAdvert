@@ -33,4 +33,5 @@ jobs:
       run: |
           cd dist
           ls
-          zip -r
+          zip -r osuNG.zip ./WebAdvert
+
