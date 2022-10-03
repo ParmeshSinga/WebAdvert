@@ -27,3 +27,10 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build --if-present
+    
+    # compress the artifact and upload to jfrof
+    - name: zip & upload
+      run: |
+          cd dist
+          ls
+          zip -r WebAdvert.Web.zip ./osuNG
